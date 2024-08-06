@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #f8fafc;
+  height: 400px;
+  width: 700px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #323f4b;
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e293b;
+
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #1e293b;
+}
+.option {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  color: #323f4b;
+  cursor: pointer;
+}
+.select {
+  font-size: 16px;
+  font-weight: 900;
+  color: #323f4b;
+  border-radius: 5px;
+  height: 50px;
+  width: 160px;
+  margin-right: 5px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+  cursor: pointer;
+  padding-left: 10px;
+}
+@media(max-width:766px) {
+  .card-container {
+    width:300px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .heading {
+    font-size: 26px;
+  }
+  .para {
+    font-size: 12px;
+  }
+  .paragraph {
+    font-size: 18px;
+  }
+  .select {
+    width: 120px;
+  }
+}
